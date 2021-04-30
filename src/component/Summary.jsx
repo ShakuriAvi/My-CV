@@ -16,7 +16,7 @@ const Summary = () => {
             It is important for me get to a place where I can continue to learn from the best in the field, where I can realize my abilities, take part in a significant product together with a united team and with people who will share with me the passion for the field!
             <br />learn and develop in the field. </p>
             </div>
-            <div className={style.skills}>
+            <div className={style.ability}>
                 <h1 className={style.title}> PERSONAL SKILLS</h1>
                 <p className={style.data}>Highly dependable Software Engineer and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues.</p>
                 <table className={style.table} >
@@ -34,13 +34,14 @@ const Summary = () => {
                             <td className={style.data}><FontAwesomeIcon icon={faCheck} />    Fast learner</td>
                         </tr>
                     </tbody>
+                    <div className={style.cv}>
+
+                        <a className={style.a} href="/CV_Avi_Shakuri.pdf" download><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
+
+                    </div>
                 </table>
 
-                <div className={style.cv}>
 
-                    <a className={style.a} href="/CV_Avi_Shakuri.pdf" download><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
-
-                </div>
             </div>
         </div>
 
