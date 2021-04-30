@@ -1,6 +1,6 @@
 .container {
     background: #336699;
-    min-height: 140vh;
+    min-height: 190vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around 10px;
