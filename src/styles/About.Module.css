@@ -1,0 +1,18 @@
+.About {
+    min-height: 150vh;
+    background: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Title {
+    font-size: 60px;
+    color: #191970;
+    padding-bottom: 55px;
+}
