@@ -27,7 +27,7 @@ const Project = () => {
                 "and show option to start a new game.", pictureHref: FlappyBird, href: "https://github.com/ShakuriAvi/FlappyBird"
         },
         {
-            nameProject: "My Web", tools: "JavaScript / React / CSS ", description: " A site that summarizes my resume, made with React.", pictureHref: myWeb, href: "https://github.com/ShakuriAvi/FlappyBird"
+            nameProject: "My Web", tools: "JavaScript / React / CSS ", description: " A site that summarizes my resume, made with React.", pictureHref: myWeb, href: "https://github.com/ShakuriAvi/my-CV"
         },
     ];
     return (

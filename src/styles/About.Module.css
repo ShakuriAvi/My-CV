@@ -1,6 +1,6 @@
 .About {
     background: white;
-    min-height: 210vh;
+    min-height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around 10px;
