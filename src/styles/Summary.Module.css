@@ -1,7 +1,5 @@
 .summary {
-    height: 300px;
     width: 80%;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
