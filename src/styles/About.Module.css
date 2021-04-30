@@ -1,9 +1,9 @@
 .About {
-    min-height: 180vh;
     background: white;
-    margin: 0;
-    padding: 20px;
-    font-size: 40px;
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around 10px;
 }
 
 .Row {
