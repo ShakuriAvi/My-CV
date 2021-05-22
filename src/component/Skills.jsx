@@ -27,7 +27,7 @@ const Skills = () => {
                     <div className={style.profession} >
                         <div className={style.name} >
 
-                            <h1> <FontAwesomeIcon icon={faStar} /> {item.profession}   <ProgressBar key={item.bgcolor} bgcolor={item.bgcolor} completed={item.completed} /></h1>
+                            <h1> <FontAwesomeIcon icon={faStar} /> {item.profession}  <ProgressBar key={item.completed} bgcolor={item.bgcolor} completed={item.completed} /></h1>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Skills = () => {
             </div>
         </section>
     );
-}
+};
 
 
 export default Skills;

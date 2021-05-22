@@ -34,12 +34,13 @@ const Summary = () => {
                             <td className={style.data}><FontAwesomeIcon icon={faCheck} />    Fast learner</td>
                         </tr>
                     </tbody>
-                    <div className={style.cv}>
-
-                        <a className={style.a} href="/CV_Avi_Shakuri.pdf" download><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
-
-                    </div>
                 </table>
+                {/* <div className={style.cv}>
+
+                    <a className={style.a} href="/CV_Avi_Shakuri.pdf" title="CV_Avi_Shakuri" download="CV_Avi_Shakuri.pdf"><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
+
+                </div> */}
+
 
 
             </div>

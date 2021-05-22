@@ -28,7 +28,7 @@ const Project = () => {
                 "and show option to start a new game.", pictureHref: FlappyBird, href: "https://github.com/ShakuriAvi/FlappyBird"
         },
         {
-            nameProject: "Memory Game (Angular)", tools: "Angular / Js / CSS ", description: "Memory game: The player must click in the correct order on the circles after the system which determines the order of pressing the circles randomly.\n Two players participate: the system and the user. Using local storage, animations and more ...", pictureHref: memoryGameAngular, href: "https://github.com/ShakuriAvi/MemoryGame-Angular"
+            nameProject: "Memory Game (Angular)", tools: "Angular / Js / CSS ", description: "Memory game: The player must click in the correct order on the circles after the system which determines.\n the order of pressing the circles randomly.\n Two players participate: the system and the user. Using local storage, animations and more ...", pictureHref: memoryGameAngular, href: "https://github.com/ShakuriAvi/MemoryGame-Angular"
         },
         {
             nameProject: "My Web", tools: "JavaScript / React / CSS ", description: " A site that summarizes my resume, made with React.", pictureHref: myWeb, href: "https://github.com/ShakuriAvi/my-CV"
