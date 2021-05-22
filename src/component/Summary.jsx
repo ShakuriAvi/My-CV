@@ -1,7 +1,7 @@
 import React from 'react';
 import style from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/styles/Summary.Module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+//import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Summary = () => {
