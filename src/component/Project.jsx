@@ -6,6 +6,7 @@ import cardWar from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web
 import FlappyBird from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/flappyBirds.png';
 import myWeb from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/myWeb.png';
 import memoryGameAngular from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/memoryGameAngular.png';
+import memoryGameSwift from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/memoryGameSwift.png';
 
 const Project = () => {
     const testData = [
@@ -21,6 +22,12 @@ const Project = () => {
                 "options:\n character selection, different settings of running the game automatically or " +
                 "manually,\n displaying records of the ten highest scores.\n " +
                 "Working with Google Map and Threads.", pictureHref: cardWar, href: "https://github.com/ShakuriAvi/WarCardGame"
+        },
+        {
+            nameProject: "My Web", tools: "Swift / Maps / IOS ", description: " Memory game: The game's goal is to remember where each of the existing pairs cards," +
+                "with a minimum of moves And in a minimum of time.\n In case the player's moves are smaller than his moves in the previous ten attempts,\n" +
+                "the record enters the list of TopTen.\n" +
+                "In Top-ten list shows the top ten result of game with location where the player played the game.", pictureHref: memoryGameSwift, href: "https://github.com/ShakuriAvi/MemoryGame-Swift"
         },
         {
             nameProject: "FlappyBird", tools: "JavaScript / HTML / CSS ", description: " The goal of the game is to fly with the bird and move between the different pipes,\n" +
