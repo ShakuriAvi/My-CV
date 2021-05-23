@@ -24,7 +24,7 @@ const Project = () => {
                 "Working with Google Map and Threads.", pictureHref: cardWar, href: "https://github.com/ShakuriAvi/WarCardGame"
         },
         {
-            nameProject: "My Web", tools: "Swift / Maps / IOS ", description: " Memory game: The game's goal is to remember where each of the existing pairs cards," +
+            nameProject: "Memory Game (Swift)", tools: "Swift / Maps / IOS ", description: " Memory game: The game's goal is to remember where each of the existing pairs cards,\n" +
                 "with a minimum of moves And in a minimum of time.\n In case the player's moves are smaller than his moves in the previous ten attempts,\n" +
                 "the record enters the list of TopTen.\n" +
                 "In Top-ten list shows the top ten result of game with location where the player played the game.", pictureHref: memoryGameSwift, href: "https://github.com/ShakuriAvi/MemoryGame-Swift"
