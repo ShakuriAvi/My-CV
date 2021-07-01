@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-CV/static/css/main.d22b07e5.chunk.css",
+    "main.js": "/my-CV/static/js/main.79a4fe83.chunk.js",
+    "main.js.map": "/my-CV/static/js/main.79a4fe83.chunk.js.map",
+    "runtime-main.js": "/my-CV/static/js/runtime-main.92823385.js",
+    "runtime-main.js.map": "/my-CV/static/js/runtime-main.92823385.js.map",
+    "static/js/2.477d6489.chunk.js": "/my-CV/static/js/2.477d6489.chunk.js",
+    "static/js/2.477d6489.chunk.js.map": "/my-CV/static/js/2.477d6489.chunk.js.map",
+    "static/js/3.0a70ec7b.chunk.js": "/my-CV/static/js/3.0a70ec7b.chunk.js",
+    "static/js/3.0a70ec7b.chunk.js.map": "/my-CV/static/js/3.0a70ec7b.chunk.js.map",
+    "index.html": "/my-CV/index.html",
+    "static/css/main.d22b07e5.chunk.css.map": "/my-CV/static/css/main.d22b07e5.chunk.css.map",
+    "static/js/2.477d6489.chunk.js.LICENSE.txt": "/my-CV/static/js/2.477d6489.chunk.js.LICENSE.txt",
+    "static/media/GoalMeet.32dbb0dd.png": "/my-CV/static/media/GoalMeet.32dbb0dd.png",
+    "static/media/cardWarPic.ac982703.png": "/my-CV/static/media/cardWarPic.ac982703.png",
+    "static/media/flappyBirds.aa92baec.png": "/my-CV/static/media/flappyBirds.aa92baec.png",
+    "static/media/myProfile.93591c2e.jpg": "/my-CV/static/media/myProfile.93591c2e.jpg",
+    "static/media/myWeb.db512209.png": "/my-CV/static/media/myWeb.db512209.png",
+    "static/media/Home.Module.css": "/my-CV/static/media/option4.9a2dc644.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92823385.js",
+    "static/js/2.477d6489.chunk.js",
+    "static/css/main.d22b07e5.chunk.css",
+    "static/js/main.79a4fe83.chunk.js"
+  ]
+}

@@ -13,10 +13,10 @@ const Summary = () => {
             During the degree I independently studied some of the languages ​​and prepared a few projects that interested me.<br />I also learned the Web field independently, the languages that ​​I know are: css, js, React, Angular, Node.js.<br />
             Now I'm also starting to look for my first job in the industry!<br />
             I'm looking for a full stack job or a software / back-end engineer. <br />
-            It is important for me get to a place where I can continue to learn from the best in the field, where I can realize my abilities, take part in a significant product together with a united team and with people who will share with me the passion for the field!
-            <br />learn and develop in the field. </p>
+            It is important for me get to a place where I can continue to learn from the best in the field, where I can realize my abilities, take part in a significant product with people who will share with me the passion for the field!
+         </p>
             </div>
-            <div className={style.skills}>
+            <div className={style.ability}>
                 <h1 className={style.title}> PERSONAL SKILLS</h1>
                 <p className={style.data}>Highly dependable Software Engineer and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues.</p>
                 <table className={style.table} >
@@ -35,12 +35,16 @@ const Summary = () => {
                         </tr>
                     </tbody>
                 </table>
-
                 <div className={style.cv}>
 
-                    <a className={style.a} href="/CV_Avi_Shakuri.pdf" download><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
+                    <a className={style.a} href={process.env.PUBLIC_URL + '/CV_Avi_Shakuri.pdf'} title="CV_Avi_Shakuri" download="/CV_Avi_Shakuri.pdf">
+                        <button className={style.btn}> <FontAwesomeIcon icon={faDownload} /> Download MY CV</button>
+                    </a>
 
                 </div>
+
+
+
             </div>
         </div>
 

@@ -1,39 +1,36 @@
 .image {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 1rem;
 }
 
 .details {
-    height: 100%;
-    width: 50%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border: 5px double #B8860B;
+    border: 0.25rem double #B8860B;
     align-items: center;
 }
 
 .title {
     font-family: Franklin Gothic Medium;
-    font-size: 15px;
+    font-size: 1rem;
     color: #000000;
     text-align: left;
 }
 
 .data {
-    font-size: 15px;
+    font-size: 1rem;
     color: #000000;
     text-align: left;
 }
 
 .col {
-    padding: 20px;
+    padding: 1rem;
 }
 
 .table {
-    padding: 20px;
-    border-spacing: 20px 25px;
+    padding: 1rem;
+    border-spacing: 1rem 1rem;
 }

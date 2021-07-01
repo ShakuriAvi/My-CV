@@ -1,9 +1,9 @@
 .About {
-    min-height: 150vh;
     background: white;
-    margin: 0;
-    padding: 20px;
-    font-size: 40px;
+    height: min(90%, 70.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around 10px;
 }
 
 .Row {
@@ -12,7 +12,19 @@
 }
 
 .Title {
-    font-size: 60px;
+    font-size: 3rem;
     color: #191970;
-    padding-bottom: 55px;
+    padding-bottom: 2rem;
+}
+
+@media all and (max-width:500px) {
+    .Row {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around 10px;
+    }
+    .Row div:first-child {
+        order: 1;
+    }
 }

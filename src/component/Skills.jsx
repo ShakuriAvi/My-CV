@@ -24,18 +24,19 @@ const Skills = () => {
                 <h2 className={style.label} >MY SKILLS</h2>
                 <h5>Grades in programming fields:</h5>
                 {testData.map((item) => (
-                    <div className={style.profession} >
-                        <div className={style.name} >
+                    <div className={style.name} >
 
-                            <h1> <FontAwesomeIcon icon={faStar} /> {item.profession}   <ProgressBar key={item.bgcolor} bgcolor={item.bgcolor} completed={item.completed} /></h1>
-                        </div>
+                        <h1> <FontAwesomeIcon icon={faStar} /> {item.profession}
+                            <ProgressBar key={item.profession} bgcolor={item.bgcolor} completed={item.completed} />
+                        </h1>
                     </div>
+
 
                 ))}
             </div>
         </section>
     );
-}
+};
 
 
 export default Skills;
