@@ -24,7 +24,7 @@ const Project = () => {
                 "The goal of the application is that the user can save the parking location where he parked his car.\n" +
                 "The application does not have to be for parking car,\n the user can share where he located by adding.\n" +
                 "a photo, description of the location, date etc.\n" +
-                "working with Firebase, using different phone permissions such as photos, Google Map and more. ", pictureHref: IPARK, href: "https://github.com/ShakuriAvi/IPARK"
+                "working with Firebase, using different phone permissions such as photos, Google Map and more.. ", pictureHref: IPARK, href: "https://github.com/ShakuriAvi/IPARK"
         },
         {
             nameProject: "WhoIsCalling", tools: "Java / Firebase / Android Studio ", description: "Implemented ME app for android platform. There are numbers of features in \n" +
