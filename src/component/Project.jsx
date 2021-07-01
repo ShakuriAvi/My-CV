@@ -17,7 +17,7 @@ const Project = () => {
             nameProject: "Goal Meet", tools: "Java / Firebase / Android Studio ", description: "Android App for meetings between different athletes in different sports: \n" +
                 "chat and updates between users in real time,\n different permissions for different types of " +
                 "users,\n working with Firebase,\n using different phone permissions such as photos and " +
-                "more..", pictureHref: goalMeet, href: "https://github.com/ShakuriAvi/GoalMeet"
+                "more.", pictureHref: goalMeet, href: "https://github.com/ShakuriAvi/GoalMeet"
         },
         {
             nameProject: "IPARK", tools: "Swift / Maps / Xcode / Firebase", description: "Ios App, implemented by swift programing language on Xcode framework.\n" +
