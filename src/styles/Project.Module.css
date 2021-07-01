@@ -4,7 +4,7 @@
 }
 
 .label {
-    font-size: 60px;
+    font-size: 6rem;
     color: #191970;
 }
 
@@ -15,21 +15,19 @@
 }
 
 .tools {
-    font-size: 15px;
+    font-size: 1rem;
     font-family: sans-serif;
-    margin-top: 0px;
     color: black;
 }
 
 .unitProject {
     border-radius: 10px;
-    box-shadow: 0px 5px 20px;
-    margin: 20px;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-width: 40%;
+    min-width: 4rem;
     background-color: #cfe8e8;
 }
 
@@ -42,16 +40,17 @@
 .description {
     white-space: pre-line;
     text-align: left;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .image {
-    margin-top: 30px;
+    margin-top: 1rem;
     border-radius: 10px;
-    border: 5px double #B8860B;
-    width: 400px;
-    height: 300px;
+    border: 0.5rem double #B8860B;
+    min-width: 1rem;
+    max-height: 15rem;
 }
 
 .btn {
@@ -59,9 +58,22 @@
     border-radius: 5%;
     border: 5px double #B8860B;
     color: white;
-    padding: 12px 50px;
+    padding: 1rem 1rem;
     cursor: pointer;
-    font-size: 20px;
-    width: 100%;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media all and (max-width:500px) {
+    .image {
+        margin-top: 1rem;
+        border-radius: 10px;
+        border: 0.5rem double #B8860B;
+        min-width: 1rem;
+        max-height: 5rem;
+    }
+    .label {
+        font-size: 2rem;
+        color: #191970;
+    }
 }

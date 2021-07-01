@@ -1,5 +1,5 @@
 .Home {
-    min-height: 110vh;
+    min-height: 55rem;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/option4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,26 +9,45 @@
 
 .Name {
     color: white;
-    margin: 0;
-    padding: 20px;
-    font-size: 40px;
+    font-size: 3rem;
+    min-width: 2rem;
 }
 
 .Data {
-    padding: 120px 50px 50px 50px;
+    padding: 4rem 2rem 2rem 2rem;
     color: white;
-    margin: 20px auto;
+    margin: 2rem auto;
 }
 
 .Subject {
     color: #6495ED;
     font-family: monospace;
-    font-size: 90px;
-    position: relative;
+    font-size: 5rem;
 }
 
 .Subject:after {
     color: #FFF8DC;
     content: attr(data-descr);
-    font-size: 90px;
+    font-size: 5rem;
+}
+
+@media all and (max-width:500px) {
+    .Subject {
+        color: #6495ED;
+        font-family: monospace;
+        font-size: 2rem;
+    }
+    .Subject:after {
+        color: #FFF8DC;
+        content: attr(data-descr);
+        font-size: 2rem;
+    }
+    .Home {
+        min-height: 10rem;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/option4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
 }

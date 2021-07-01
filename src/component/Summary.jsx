@@ -1,7 +1,7 @@
 import React from 'react';
 import style from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/styles/Summary.Module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Summary = () => {
@@ -35,11 +35,13 @@ const Summary = () => {
                         </tr>
                     </tbody>
                 </table>
-                {/* <div className={style.cv}>
+                <div className={style.cv}>
 
-                    <a className={style.a} href="/CV_Avi_Shakuri.pdf" title="CV_Avi_Shakuri" download="CV_Avi_Shakuri.pdf"><button className={style.btn} > <FontAwesomeIcon icon={faDownload} /> Download MY CV</button></a>
+                    <a className={style.a} href={process.env.PUBLIC_URL + '/CV_Avi_Shakuri.pdf'} title="CV_Avi_Shakuri" download="/CV_Avi_Shakuri.pdf">
+                        <button className={style.btn}> <FontAwesomeIcon icon={faDownload} /> Download MY CV</button>
+                    </a>
 
-                </div> */}
+                </div>
 
 
 
