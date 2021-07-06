@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import UnitProject from "./UnitProject";
 import style from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/styles/Project.Module.css';
 import goalMeet from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/GoalMeet.png';
@@ -10,7 +10,12 @@ import memoryGameSwift from 'C:/Users/shaku/OneDrive/Desktop/לימודים/Reac
 import IPARK from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/IPARK.png';
 import WhoIsCalling from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/WhoIsCalling.png';
 
-const Project = () => {
+function Project () {
+   const [count, setCount] = useState(0);
+       const Increment = () => {
+         setCount(count + 1);
+         console.log(count)
+       };
     const testData = [
 
         {
@@ -58,22 +63,28 @@ const Project = () => {
             nameProject: "My Web", tools: "JavaScript / React / CSS ", description: " A site that summarizes my resume, made with React.", pictureHref: myWeb, href: "https://github.com/ShakuriAvi/my-CV"
         },
     ];
+  
     return (
-        <section id="Project">
-            <div className={style.container}>
-                <h2 className={style.label} >PORTFOLIO</h2>
-                <div className={style.projects}>
+      <section id="Project">
+        <div className={style.container}>
+          <h2 className={style.label}>PORTFOLIO</h2>
+          <div className={style.projects}>
                     {testData.map((item) => (
-                        <UnitProject key={item.nameProject} title={item.nameProject} tools={item.tools} link={item.href} image={item.pictureHref} description={item.description} />
-
-
+                      
+                      <UnitProject
+                        key={item.nameProject}
+                        title={item.nameProject}
+                        tools={item.tools}
+                        link={item.href}
+                        image={item.pictureHref}
+                        description={item.description}
+                        
+                      />
                     ))}
-                </div>
-
-
-            </div>
-        </section>
-
+     
+          </div>
+        </div>
+      </section>
     );
 };
 
