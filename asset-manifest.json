@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-CV/static/css/main.8999426c.chunk.css",
-    "main.js": "/my-CV/static/js/main.05549f24.chunk.js",
-    "main.js.map": "/my-CV/static/js/main.05549f24.chunk.js.map",
-    "runtime-main.js": "/my-CV/static/js/runtime-main.92823385.js",
-    "runtime-main.js.map": "/my-CV/static/js/runtime-main.92823385.js.map",
-    "static/js/2.ca300c45.chunk.js": "/my-CV/static/js/2.ca300c45.chunk.js",
-    "static/js/2.ca300c45.chunk.js.map": "/my-CV/static/js/2.ca300c45.chunk.js.map",
-    "static/js/3.0a70ec7b.chunk.js": "/my-CV/static/js/3.0a70ec7b.chunk.js",
-    "static/js/3.0a70ec7b.chunk.js.map": "/my-CV/static/js/3.0a70ec7b.chunk.js.map",
+    "main.css": "/my-CV/static/css/main.df1621ac.chunk.css",
+    "main.js": "/my-CV/static/js/main.287377b2.chunk.js",
+    "main.js.map": "/my-CV/static/js/main.287377b2.chunk.js.map",
+    "runtime-main.js": "/my-CV/static/js/runtime-main.06420172.js",
+    "runtime-main.js.map": "/my-CV/static/js/runtime-main.06420172.js.map",
+    "static/js/2.25a4701d.chunk.js": "/my-CV/static/js/2.25a4701d.chunk.js",
+    "static/js/2.25a4701d.chunk.js.map": "/my-CV/static/js/2.25a4701d.chunk.js.map",
+    "static/js/3.2e7c45d2.chunk.js": "/my-CV/static/js/3.2e7c45d2.chunk.js",
+    "static/js/3.2e7c45d2.chunk.js.map": "/my-CV/static/js/3.2e7c45d2.chunk.js.map",
     "index.html": "/my-CV/index.html",
-    "static/css/main.8999426c.chunk.css.map": "/my-CV/static/css/main.8999426c.chunk.css.map",
-    "static/js/2.ca300c45.chunk.js.LICENSE.txt": "/my-CV/static/js/2.ca300c45.chunk.js.LICENSE.txt",
+    "static/css/main.df1621ac.chunk.css.map": "/my-CV/static/css/main.df1621ac.chunk.css.map",
+    "static/js/2.25a4701d.chunk.js.LICENSE.txt": "/my-CV/static/js/2.25a4701d.chunk.js.LICENSE.txt",
     "static/media/GoalMeet.32dbb0dd.png": "/my-CV/static/media/GoalMeet.32dbb0dd.png",
     "static/media/IPARK.6c20a1cd.png": "/my-CV/static/media/IPARK.6c20a1cd.png",
     "static/media/WhoIsCalling.05abd62a.png": "/my-CV/static/media/WhoIsCalling.05abd62a.png",
@@ -24,9 +24,9 @@
     "static/media/Home.Module.css": "/my-CV/static/media/option4.9a2dc644.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92823385.js",
-    "static/js/2.ca300c45.chunk.js",
-    "static/css/main.8999426c.chunk.css",
-    "static/js/main.05549f24.chunk.js"
+    "static/js/runtime-main.06420172.js",
+    "static/js/2.25a4701d.chunk.js",
+    "static/css/main.df1621ac.chunk.css",
+    "static/js/main.287377b2.chunk.js"
   ]
 }
