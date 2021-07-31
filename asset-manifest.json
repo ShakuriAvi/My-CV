@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-CV/static/css/main.df1621ac.chunk.css",
-    "main.js": "/my-CV/static/js/main.287377b2.chunk.js",
-    "main.js.map": "/my-CV/static/js/main.287377b2.chunk.js.map",
+    "main.js": "/my-CV/static/js/main.11eff9ab.chunk.js",
+    "main.js.map": "/my-CV/static/js/main.11eff9ab.chunk.js.map",
     "runtime-main.js": "/my-CV/static/js/runtime-main.06420172.js",
     "runtime-main.js.map": "/my-CV/static/js/runtime-main.06420172.js.map",
     "static/js/2.25a4701d.chunk.js": "/my-CV/static/js/2.25a4701d.chunk.js",
@@ -14,6 +14,8 @@
     "static/js/2.25a4701d.chunk.js.LICENSE.txt": "/my-CV/static/js/2.25a4701d.chunk.js.LICENSE.txt",
     "static/media/GoalMeet.32dbb0dd.png": "/my-CV/static/media/GoalMeet.32dbb0dd.png",
     "static/media/IPARK.6c20a1cd.png": "/my-CV/static/media/IPARK.6c20a1cd.png",
+    "static/media/LoopMachine.80a75ee8.png": "/my-CV/static/media/LoopMachine.80a75ee8.png",
+    "static/media/Tokens.5cc4afa0.png": "/my-CV/static/media/Tokens.5cc4afa0.png",
     "static/media/WhoIsCalling.05abd62a.png": "/my-CV/static/media/WhoIsCalling.05abd62a.png",
     "static/media/cardWarPic.ac982703.png": "/my-CV/static/media/cardWarPic.ac982703.png",
     "static/media/flappyBirds.aa92baec.png": "/my-CV/static/media/flappyBirds.aa92baec.png",
@@ -27,6 +29,6 @@
     "static/js/runtime-main.06420172.js",
     "static/js/2.25a4701d.chunk.js",
     "static/css/main.df1621ac.chunk.css",
-    "static/js/main.287377b2.chunk.js"
+    "static/js/main.11eff9ab.chunk.js"
   ]
 }
