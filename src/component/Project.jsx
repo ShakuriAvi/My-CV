@@ -11,6 +11,7 @@ import IPARK from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/s
 import WhoIsCalling from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/WhoIsCalling.png';
 import blockchain from 'C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/Tokens.png'
 import loopMachine from "C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/LoopMachine.png";
+import TicTacToe from "C:/Users/shaku/OneDrive/Desktop/לימודים/React/my-web/src/image/TicTacToe.png";
 
 function Project () {
    const [count, setCount] = useState(0);
@@ -62,6 +63,17 @@ function Project () {
           "Animation, notifications, services, Permissions etc.",
         pictureHref: WhoIsCalling,
         href: "https://github.com/ShakuriAvi/Who-Is-Calling",
+      },
+      {
+        nameProject: "Tic Tac Toe",
+        tools: "C# / Winforms / ASP.NET Core /Microsoft SQL Server ",
+        description:
+          "TicTacToe game by .net c#. The client side implemented with \n" +
+          "Winforms and the backend side with ASP.NET Core.\n" +
+          "Using MVC model, database (Microsoft SQL Server), tasks, js,\n" +
+           "HttpClient , Graphics and more.\n",
+        pictureHref: TicTacToe,
+        href: "https://github.com/ShakuriAvi/TicTacToe-Client",
       },
       {
         nameProject: "Memory Game (Swift)",
